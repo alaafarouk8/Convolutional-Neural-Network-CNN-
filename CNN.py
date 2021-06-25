@@ -18,9 +18,7 @@ from keras.datasets import mnist
 from keras.models import load_model
 from sklearn.model_selection import KFold
 from matplotlib import image
-# example of cropping an image
 from PIL import Image
-# make a prediction for a new image.
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
 # load dataset train set and test set
